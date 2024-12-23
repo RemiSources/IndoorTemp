@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "IndoorTemp",
   "resources": {
-    "hash": "sha256-3avho19QWRP+WZwb9/wOw0aRLf57EYNBr35bq3nbLGE=",
+    "hash": "sha256-l+CenQEeXTLRpYqf/a+GCQqy+HW12GYkYfima/yDSww=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-p7ClT8o5uqssszvzfZUGhBlLOOkeUrpskkbm2FHab3g="
     },
@@ -19,7 +19,7 @@
     "coreAssembly": {},
     "assembly": {
       "Blazor-ApexCharts.wasm": "sha256-57KSk53rPMZxLzomnffCJy8eTTpyIsE0niA8IC+T7WM=",
-      "IndoorTemp.wasm": "sha256-OBaMEamxmI0Tkb1vd5wD4ZQXrUPOeafdBlYdmKxhivo=",
+      "IndoorTemp.wasm": "sha256-rrm6xGfs5fctGXV6aT/NwjKw+CeIs3Hy8MK6LhSHAvo=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-ik8NcHDrprUvOEdSSZg2xiUeGWAbReu1dUvmF5i0Tus=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-QBzv3MZi/RYsKZCkZS9tNkp99HJyPfoTVfTl/KAQV3M=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-59scqkfueeQ74j9sl6s1rvIqoKTkpS9QHptm6JJ4ff4=",
