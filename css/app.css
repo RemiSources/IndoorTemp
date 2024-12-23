@@ -1,0 +1,33 @@
+html, body, #app, .page
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* #--------------------# */
+/* # Page de chargement # */
+/* #--------------------# */
+.loading
+{
+    font-size: 1.5rem;
+    animation: color_change 2s infinite ease-in-out;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes color_change
+{
+    0%
+    {
+        color: #dedede;
+    }
+
+    100%
+    {
+        color: #939393;
+    }
+}

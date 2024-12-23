@@ -1,0 +1,191 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+/* /Pages/History.razor.rz.scp.css */
+.content[b-gveqtt9l0k]
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background: #f4f4f9;
+}
+
+    .content .current_date[b-gveqtt9l0k]
+    {
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        align-self: start;
+        align-items: center;
+        justify-self: end;
+        margin: 1.2rem 5%;
+        gap: 1rem;
+    }
+
+    .content .chart[b-gveqtt9l0k]
+    {
+        grid-row: 1;
+        grid-column: 1;
+        margin: 5%;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+    }
+/* /Pages/IndoorTemperature.razor.rz.scp.css */
+.content[b-u9qhum5oma]
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background: #f4f4f9;
+}
+
+    .content .graph_link[b-u9qhum5oma]
+    {
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: right;
+        align-self: start;
+        margin: 1rem;
+        color: #999999;
+        cursor: pointer;
+        transition: color 0.2s ease-in-out;
+    }
+
+        .content .graph_link:hover[b-u9qhum5oma]
+        {
+            color: #da682c;
+        }
+
+    .content .actual_data[b-u9qhum5oma]
+    {
+        grid-row: 1;
+        grid-column: 1;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        grid-gap: 1.5rem;
+    }
+
+        .content .actual_data .tuile[b-u9qhum5oma]
+        {
+            width: 8rem;
+            height: 11rem;
+            border-radius: 0.5rem;
+            display: grid;
+            grid-template-rows: 60fr 40fr;
+            grid-template-columns: 1fr;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .content .actual_data .tuile .title[b-u9qhum5oma]
+            {
+                grid-row: 1;
+                grid-column: 1;
+                width: 75%;
+                color: white;
+                height: 1.6rem;
+                align-self: end;
+                border-radius: 0.8rem;
+                margin-bottom: -0.8rem;
+                font-size: 0.8rem;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+
+            .content .actual_data .tuile .icon[b-u9qhum5oma]
+            {
+                grid-row: 1;
+                grid-column: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .content .actual_data .tuile.temperature[b-u9qhum5oma]
+            {
+                grid-row: 1;
+                grid-column: 1;
+            }
+
+                .content .actual_data .tuile.temperature .title[b-u9qhum5oma]
+                {
+                    background-color: #cc2219;
+                }
+
+                .content .actual_data .tuile.temperature .icon[b-u9qhum5oma]
+                {
+                    background-color: #EC6F69;
+                    color: #F1CFDA;
+                }
+
+            .content .actual_data .tuile.humidite[b-u9qhum5oma]
+            {
+                grid-row: 1;
+                grid-column: 2;
+            }
+
+                .content .actual_data .tuile.humidite .title[b-u9qhum5oma]
+                {
+                    background-color: #0059b3;
+                }
+
+                .content .actual_data .tuile.humidite .icon[b-u9qhum5oma]
+                {
+                    background-color: #399DFF;
+                    color: #87CDFA;
+                }
+
+            .content .actual_data .tuile .value[b-u9qhum5oma]
+            {
+                grid-row: 2;
+                grid-column: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                color: #6c6c6c;
+                background: white;
+            }
+
+        .content .actual_data .date[b-u9qhum5oma]
+        {
+            grid-row: 2;
+            grid-column: 1 / span 2;
+            text-align: center;
+            font-size: 1rem;
+            color: gray;
+        }
+/* /Pages/Loading.razor.rz.scp.css */
+.loading[b-c9c4qd0cgj]
+{
+    font-size: 2rem; /* Taille du texte */
+    animation: changementDeCouleur-b-c9c4qd0cgj 1s infinite ease-in-out; /* Animation avec une durée de 5s */
+}
+
+@keyframes changementDeCouleur-b-c9c4qd0cgj
+{
+    0%
+    {
+        color: #FF5733; /* Première couleur */
+    }
+
+    50%
+    {
+        color: #33FF57; /* Deuxième couleur */
+    }
+
+    100%
+    {
+        color: #FF5733; /* Retour à la première couleur */
+    }
+}
